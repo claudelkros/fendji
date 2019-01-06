@@ -60,12 +60,11 @@ public class MinimizeLateness {
 
 	public static void main(String[] args) {
 		Job[] jobs = {
-				new Job("1", 3, 6),
-				new Job("2", 3, 14),
-				new Job("3", 1, 9),
-				new Job("4", 4, 9),
-				new Job("5", 2, 8),
-				new Job("6", 2, 15),
+				new Job("1", 4, 8),
+				new Job("2", 2, 12),
+				new Job("3", 6, 11),
+				new Job("4", 5, 10),
+				
 		};
 		MinimizeLateness.findMinLateness(jobs);
 	}
